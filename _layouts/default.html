@@ -4,10 +4,38 @@
 	<meta charset="utf-8">
 	<title>coding46's coding{% if page.title }%} - {{page.title}}{% endif %}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-    <meta name="author" content="">
+	
+	<!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+  <link rel="stylesheet" href="assets/css/normalize.css" />
+  <link rel="stylesheet" href="assets/css/foundation.css" />
+
+  <!-- If you are using the gem version, you need this only -->
+  <link rel="stylesheet" href="assets/css/app.css" />
+
+  <script src="assets/js/vendor/custom.modernizr.js"></script>
 </head>
 <body>
 {{content}}
+<script type="text/javascript">
+document.write( '<script src=' + ( '__proto__' in {} ? 'assets/js/vendor/zepto' : 'assets/js/vendor/jquery' ) + '.js></script>' );
+</script>
+<script src="assets/js/foundation/foundation.js"></script>
+<script src="assets/js/foundation/foundation.alerts.js"></script>
+<script src="assets/js/foundation/foundation.clearing.js"></script>
+<script src="assets/js/foundation/foundation.cookie.js"></script>
+<script src="assets/js/foundation/foundation.dropdown.js"></script>
+<script src="assets/js/foundation/foundation.forms.js"></script>
+<script src="assets/js/foundation/foundation.joyride.js"></script>
+<script src="assets/js/foundation/foundation.magellan.js"></script>
+<script src="assets/js/foundation/foundation.orbit.js"></script>
+<script src="assets/js/foundation/foundation.placeholder.js"></script>
+<script src="assets/js/foundation/foundation.reveal.js"></script>
+<script src="assets/js/foundation/foundation.section.js"></script>
+<script src="assets/js/foundation/foundation.tooltips.js"></script>
+<script src="assets/js/foundation/foundation.topbar.js"></script>
+<script src="assets/js/foundation/foundation.interchange.js"></script>
+<script>
+$(document).foundation();
+</script>
 </body>
 </html>
