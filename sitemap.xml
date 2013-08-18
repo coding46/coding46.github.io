@@ -16,4 +16,8 @@
         <loc>http://coding46.github.io/robots.txt</loc>
         <lastmod>2013-08-17T23:53:37+02:00</lastmod>
     </url>
+    <url>
+        <loc>http://coding46.github.io/test-a-page/</loc>
+        <lastmod>2013-08-19T00:31:06+02:00</lastmod>
+    </url>
 </urlset>
